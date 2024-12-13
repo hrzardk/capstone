@@ -44,6 +44,37 @@ Theme: Health Innovation
 
 ## Mobile Development Learning Path
 
+### Key Features
+
+1. **Home Page**
+- Personalized Greeting: Displays a welcome message based on the user's email.
+- "Explore Now" Button: Provides direct access to the Job Recommendations page, where users can explore jobs tailored to their needs.
+- Easy Navigation: A bottom navigation bar allows users to switch between pages, such as Home, Settings, and Job Recommendations, quickly and efficiently.
+2. **Job Recommendations**
+- This feature offers personalized job recommendations based on the user's preferences, making it easier for users to find suitable job opportunities.
+3. **Settings**
+- The Settings page allows users to manage their preferences, including Information about the application, Notification settings, and Logout options.
+4. **Intuitive Navigation**
+- The application is designed with user-friendly navigation, ensuring seamless access to all features and pages.
+
+### Featured Technologies
+
+1. **Andriod Studio**
+- The official integrated development environment (IDE) for Android development. Android Studio provides powerful tools for coding, testing, and debugging, ensuring an efficient development process.
+2. **MVVM (Model-View-ViewModel)**
+- A robust architectural pattern that separates UI logic from business logic. MVVM helps create maintainable, scalable, and testable codebases by organizing components into Models, Views, and ViewModels.
+3. **Kotlin**
+- A modern, concise, and type-safe programming language designed for building robust Android applications. Kotlin enhances developer productivity and is fully interoperable with Java.
+
+### Library
+
+1. **Glide**
+- A fast and efficient image loading and caching library for Android. Glide simplifies the process of fetching, displaying, and caching images in applications.
+2. **Retrofit**
+- A type-safe HTTP client for Android and Java. Retrofit simplifies API integration by converting HTTP API responses into Kotlin or Java objects, making it easier to handle RESTful services.
+3. **Room**
+- A persistence library that provides an abstraction layer over SQLite. Room ensures seamless local data storage and retrieval with compile-time checks, reducing boilerplate code and potential errors.
+
 ## Cloud Computing Learning Path
 
 ### Deployment Steps
