@@ -93,23 +93,28 @@ git pull origin main
 pipenv install
 pipenv shell
 ```
-4. Install PM2 and Nginx
+4. Create a '.env' file
+```bash
+touch .env
+cp .env.example .env
+```
+5. Install PM2 and Nginx
 ```bash 
 npm install -g pm2
 sudo apt update
 sudo apt install nginx
 ```
-5. Set up reverse proxy with nginx
+6. Set up reverse proxy with nginx
 ```bash
 sudo ln -s /etc/nginx/sites-available/<your-config-file> /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl restart nginx
 ```
-6. Run database migrations
+7. Run database migrations
 ```bash
 flask db upgrade
 ```
-7. Run the flask application with PM2
+8. Run the flask application with PM2
 ```bash
 pm2 start flask -- flask run
 ```
