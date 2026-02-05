@@ -1,0 +1,6 @@
+.env
+__pycache__/
+public/
+db-data/
+exported_model/
+tmp/
