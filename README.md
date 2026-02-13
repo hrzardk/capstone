@@ -1,5 +1,7 @@
 # Setara - Bangkit 2024 Capstone Project
 
+PPT : https://drive.google.com/file/d/1ghpWpAYa1nxX4JJL40jzmpPxdSw4Opz3/view?usp=sharing
+
 Setara (Sistem Rekomendasi Tenaga Kerja Inklusif) addresses workforce exclusion among individuals with disabilities in Indonesia, where only 2 in 5 are employed (BPS, 2023). This Android app uses machine learning to provide personalized job recommendations based on users' abilities, experiences, and locations. With cloud-based infrastructure and real-time job matching, Setara promotes inclusivity and accessibility in the workforce. Aligned with SDGs 8 and 10, it aims to reduce employment barriers, foster equality, and support Indonesia's goals of reducing unemployment and inequality (Kementerian PPN, 2023).
 
 Theme: Health Innovation
@@ -129,3 +131,4 @@ pm2 start flask -- flask run
   A high-performance web server and reverse proxy server used to route requests from the internet to the Flask backend while ensuring scalability and security.
 - [Google Cloud Platform (GCP)](https://cloud.google.com/)  
   A comprehensive cloud computing platform that supports the deployment of virtual machines, database services, and scalable infrastructure for modern application development.
+
